@@ -20,6 +20,34 @@
 5. Final diagram
    ![alt text](image-3.png)
 
+## Anatomy of scable web application 2
+
+1. There are two ways of scaling a web application
+
+- Vertical
+- Horizontal
+
+2. In vertical scaling we keep increasing the power of server like adding more RAM, disk storage etc.
+
+- It becomes very impractical when application grows.
+
+3. Horizontals brings the multiple server model concept
+
+- This is not good model where we have same server connected with load balancer. It is inefficient because there is overhead suppose Machine A want to connect with Machine C cache or vice versa.
+  ![alt text](image-4.png)
+
+4. This is standard model used in industry nowadays for scaling
+
+- We have load balancer like below, It's job is to route the request to free app server.
+  ![alt text](image-5.png)
+
+- We will add another layer i.e Distributed databases. Our app server access these to perform calculation. It can be SQL/No-SQL database.
+  ![alt text](image-6.png)
+- We have now added the caching layer and task queue layer. We need task queue to support asynchronous task and to reduce latency of request.
+  ![alt text](image-7.png)
+
+- We can add one more layer i.e Data processing which will be responsible for data analytics.
+  ![alt text](image-8.png)
 
 
-## 
+  
