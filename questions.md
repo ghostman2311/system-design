@@ -7,3 +7,12 @@
 5. What are the drawbacks of a non-scalable application when the number of requests increases?
 6. What are the additional components added to the final diagram of a scalable web application?
 7. What is the difference between vertical and horizontal scaling of a web application?
+
+# Anatomy of scalable web application 2
+
+1. What is the main advantage of horizontal scaling over vertical scaling?
+2. What is the role of a load balancer in a scalable web application?
+3. What are the benefits of using a distributed database instead of a single database?
+4. How does a caching layer improve the performance of a web application?
+5. What are some examples of asynchronous tasks that can be handled by a task queue?
+6. What are some applications of data processing in a web application?
